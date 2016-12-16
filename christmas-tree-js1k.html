@@ -10,7 +10,6 @@ html, body { margin: 0; padding: 0; border: 0; width: 100%; height: 100%; }
   <canvas id="c" height="446" width="446"></canvas>
   <script></script>
   <script>
-    a = document.querySelector("canvas");
   M = Math;
 Q = M.random;
 J = [];
@@ -20,7 +19,7 @@ E = M.sqrt;
 for (O = k = 0; x = z = j = i = k < 200;)
 	with(M[k] = k ? c.cloneNode(0) : c) {
 		width = height = k ? 32 : W = 446;
-		with(getContext('2d'))
+		with(a = getContext('2d'))
 		if (k > 10 | !k)
 			for (font = '60px Impact', V = 'rgba('; I = i * U, fillStyle = k ? k == 13 ? V + '205,205,215,.15)' : V + (147 + I) + ',' + (k % 2 ? 128 + I : 0) + ',' + I + ',.5)' : '#cca', i < 7;)
 				beginPath(fill(arc(U - i / 3, 24 - i / 2, k == 13 ? 4 - (i++) / 2 : 8 - i++, 0, M.PI * 2, 1)));
