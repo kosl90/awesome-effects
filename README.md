@@ -1,5 +1,7 @@
 # awesome-effects
-some awesome effects
+
+从网上收集的一些不错的效果，有的是自己实现的，有的是从网站中提取出来，加上理解。之后可能会把这些收集放到 [CodePen](http://codepen.io/kosl90) 或类似网站上
+
 
 # links
 
